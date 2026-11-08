@@ -19,7 +19,7 @@ public class SkyblockDuoPlus extends JavaPlugin implements Listener {
   private final Material[] drops = new Material[] {
     Material.COBBLESTONE, Material.DIRT, Material.SAND, Material.GRAVEL, Material.LOG,
     Material.SAPLING, Material.COAL, Material.IRON_INGOT, Material.GOLD_INGOT,
-    Material.REDSTONE, Material.LAPIS_LAZULI, Material.OBSIDIAN, Material.STRING,
+    Material.REDSTONE, Material.INK_SACK, Material.OBSIDIAN, Material.STRING,
     Material.BONE, Material.WHEAT, Material.POTATO_ITEM, Material.CARROT_ITEM,
     Material.SEEDS, Material.CACTUS, Material.SUGAR_CANE, Material.ENDER_PEARL,
     Material.DIAMOND, Material.EMERALD, Material.EXP_BOTTLE
