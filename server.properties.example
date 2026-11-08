@@ -1,0 +1,8 @@
+# Suggested starting values for a private friends-only server
+online-mode=true
+max-players=10
+gamemode=survival
+difficulty=normal
+spawn-protection=0
+pvp=false
+view-distance=8
