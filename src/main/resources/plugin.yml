@@ -1,0 +1,14 @@
+name: SkyblockDuoPlus
+main: ru.skyblockduo.SkyblockDuoPlus
+version: 1.0.0
+author: SkyblockDuoPlus
+commands:
+  island:
+    description: Shared classic SkyBlock island
+    usage: /island [invite <player>|accept]
+  luckyblock:
+    description: Get a random-drop block
+    usage: /luckyblock
+permissions:
+  skyblockduo.admin:
+    default: op
