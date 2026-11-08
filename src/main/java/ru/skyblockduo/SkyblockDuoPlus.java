@@ -28,8 +28,8 @@ public class SkyblockDuoPlus extends JavaPlugin implements Listener {
   public void onEnable() {
     saveDefaultConfig();
     Bukkit.getPluginManager().registerEvents(this, this);
-    getCommand("island").setExecutor(this::islandCommand);
-    getCommand("luckyblock").setExecutor(this::luckyCommand);
+    getCommand("island").setExecutor((sender, command, label, args) -> islandCommand(sender, label, args));
+    getCommand("luckyblock").setExecutor((sender, command, label, args) -> luckyCommand(sender, label, args));
     String id = getConfig().getString("owner", "");
     if (!id.isEmpty()) try { owner = UUID.fromString(id); } catch (Exception ignored) {}
     String invite = getConfig().getString("invited", "");
